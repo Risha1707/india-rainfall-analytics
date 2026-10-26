@@ -1,0 +1,3 @@
+# Serverless Function Dependencies (Vercel)
+# api/predict.py runs on Python's built-in standard library (http.server, json, math, os)
+# Keeping this empty prevents downloading 600MB scipy/pandas/matplotlib on Lambda serverless.
