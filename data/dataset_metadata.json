@@ -1,0 +1,394 @@
+{
+  "dataset_name": "Rainfall in India (1901-2015) Meteorological Sub-Division Series",
+  "source": "Open Government Data (OGD) Platform India (data.gov.in) & India Meteorological Department (IMD)",
+  "ministry": "Ministry of Earth Sciences, Government of India",
+  "portal_url": "https://data.gov.in/catalog/rainfall-statistics-india",
+  "license": "Government Open Data License - India (GODL)",
+  "temporal_coverage": {
+    "start_year": 1901,
+    "end_year": 2015,
+    "total_years": 115
+  },
+  "spatial_coverage": {
+    "subdivisions_count": 36,
+    "subdivisions": [
+      "ANDAMAN & NICOBAR ISLANDS",
+      "ARUNACHAL PRADESH",
+      "ASSAM & MEGHALAYA",
+      "BIHAR",
+      "CHHATTISGARH",
+      "COASTAL ANDHRA PRADESH",
+      "COASTAL KARNATAKA",
+      "EAST MADHYA PRADESH",
+      "EAST RAJASTHAN",
+      "EAST UTTAR PRADESH",
+      "GANGETIC WEST BENGAL",
+      "GUJARAT REGION",
+      "HARYANA DELHI & CHANDIGARH",
+      "HIMACHAL PRADESH",
+      "JAMMU & KASHMIR",
+      "JHARKHAND",
+      "KERALA",
+      "KONKAN & GOA",
+      "LAKSHADWEEP",
+      "MADHYA MAHARASHTRA",
+      "MARATHWADA",
+      "NAGA MANI MIZO TRIPURA",
+      "NORTH INTERIOR KARNATAKA",
+      "ORISSA",
+      "PUNJAB",
+      "RAYALSEEMA",
+      "SAURASHTRA & KUTCH",
+      "SOUTH INTERIOR KARNATAKA",
+      "SUB HIMALAYAN WEST BENGAL & SIKKIM",
+      "TAMIL NADU",
+      "TELANGANA",
+      "UTTARAKHAND",
+      "VIDARBHA",
+      "WEST MADHYA PRADESH",
+      "WEST RAJASTHAN",
+      "WEST UTTAR PRADESH"
+    ],
+    "climate_zones": [
+      "Central & Plateau",
+      "Indo-Gangetic Plains",
+      "North-East & Himalayan",
+      "Peninsular & Coastal",
+      "Western Arid & Semi-Arid"
+    ]
+  },
+  "cleaning_summary": {
+    "original_rows": 4116,
+    "original_cols": 19,
+    "duplicates_removed": 0,
+    "monthly_values_imputed": 70,
+    "imputation_method": "Subdivision-specific historical monthly median",
+    "aggregates_reconciled": true
+  },
+  "subdivision_baselines": {
+    "ANDAMAN & NICOBAR ISLANDS": {
+      "mean_annual": 2926.07,
+      "std_annual": 404.52,
+      "median_annual": 2955.95,
+      "min_annual": 1849.3,
+      "max_annual": 3938.2,
+      "mean_monsoon": 1709.69,
+      "std_monsoon": 287.92
+    },
+    "ARUNACHAL PRADESH": {
+      "mean_annual": 3435.02,
+      "std_annual": 1060.51,
+      "median_annual": 3375.1,
+      "min_annual": 1668.5,
+      "max_annual": 6331.1,
+      "mean_monsoon": 2267.27,
+      "std_monsoon": 826.82
+    },
+    "ASSAM & MEGHALAYA": {
+      "mean_annual": 2580.7,
+      "std_annual": 310.19,
+      "median_annual": 2601.0,
+      "min_annual": 1743.5,
+      "max_annual": 3403.6,
+      "mean_monsoon": 1720.59,
+      "std_monsoon": 225.82
+    },
+    "NAGA MANI MIZO TRIPURA": {
+      "mean_annual": 2433.64,
+      "std_annual": 431.73,
+      "median_annual": 2422.9,
+      "min_annual": 1353.9,
+      "max_annual": 4316.3,
+      "mean_monsoon": 1609.95,
+      "std_monsoon": 318.28
+    },
+    "SUB HIMALAYAN WEST BENGAL & SIKKIM": {
+      "mean_annual": 2752.2,
+      "std_annual": 337.86,
+      "median_annual": 2723.0,
+      "min_annual": 1988.2,
+      "max_annual": 3655.2,
+      "mean_monsoon": 2126.39,
+      "std_monsoon": 297.28
+    },
+    "GANGETIC WEST BENGAL": {
+      "mean_annual": 1490.49,
+      "std_annual": 229.48,
+      "median_annual": 1482.3,
+      "min_annual": 1015.1,
+      "max_annual": 2099.8,
+      "mean_monsoon": 1130.67,
+      "std_monsoon": 186.06
+    },
+    "ORISSA": {
+      "mean_annual": 1458.17,
+      "std_annual": 187.1,
+      "median_annual": 1447.2,
+      "min_annual": 987.0,
+      "max_annual": 1945.2,
+      "mean_monsoon": 1158.82,
+      "std_monsoon": 152.02
+    },
+    "JHARKHAND": {
+      "mean_annual": 1309.3,
+      "std_annual": 198.25,
+      "median_annual": 1314.3,
+      "min_annual": 697.1,
+      "max_annual": 1898.7,
+      "mean_monsoon": 1084.51,
+      "std_monsoon": 168.09
+    },
+    "BIHAR": {
+      "mean_annual": 1197.64,
+      "std_annual": 194.64,
+      "median_annual": 1207.0,
+      "min_annual": 629.2,
+      "max_annual": 1660.5,
+      "mean_monsoon": 1015.79,
+      "std_monsoon": 176.5
+    },
+    "EAST UTTAR PRADESH": {
+      "mean_annual": 979.21,
+      "std_annual": 203.63,
+      "median_annual": 988.8,
+      "min_annual": 493.5,
+      "max_annual": 1545.4,
+      "mean_monsoon": 861.49,
+      "std_monsoon": 190.98
+    },
+    "WEST UTTAR PRADESH": {
+      "mean_annual": 827.11,
+      "std_annual": 189.63,
+      "median_annual": 809.0,
+      "min_annual": 371.9,
+      "max_annual": 1244.0,
+      "mean_monsoon": 721.67,
+      "std_monsoon": 178.0
+    },
+    "UTTARAKHAND": {
+      "mean_annual": 1465.69,
+      "std_annual": 264.02,
+      "median_annual": 1478.5,
+      "min_annual": 803.5,
+      "max_annual": 2103.0,
+      "mean_monsoon": 1131.37,
+      "std_monsoon": 229.19
+    },
+    "HARYANA DELHI & CHANDIGARH": {
+      "mean_annual": 530.49,
+      "std_annual": 142.19,
+      "median_annual": 512.1,
+      "min_annual": 234.6,
+      "max_annual": 986.8,
+      "mean_monsoon": 437.79,
+      "std_monsoon": 135.24
+    },
+    "PUNJAB": {
+      "mean_annual": 593.54,
+      "std_annual": 163.35,
+      "median_annual": 586.6,
+      "min_annual": 274.7,
+      "max_annual": 1222.6,
+      "mean_monsoon": 460.39,
+      "std_monsoon": 150.59
+    },
+    "HIMACHAL PRADESH": {
+      "mean_annual": 1260.34,
+      "std_annual": 247.32,
+      "median_annual": 1236.8,
+      "min_annual": 776.3,
+      "max_annual": 1919.2,
+      "mean_monsoon": 775.66,
+      "std_monsoon": 206.45
+    },
+    "JAMMU & KASHMIR": {
+      "mean_annual": 1137.79,
+      "std_annual": 234.76,
+      "median_annual": 1095.6,
+      "min_annual": 656.9,
+      "max_annual": 1732.4,
+      "mean_monsoon": 514.19,
+      "std_monsoon": 151.31
+    },
+    "WEST RAJASTHAN": {
+      "mean_annual": 292.66,
+      "std_annual": 108.85,
+      "median_annual": 279.8,
+      "min_annual": 62.2,
+      "max_annual": 768.8,
+      "mean_monsoon": 258.71,
+      "std_monsoon": 101.56
+    },
+    "EAST RAJASTHAN": {
+      "mean_annual": 655.21,
+      "std_annual": 166.44,
+      "median_annual": 655.3,
+      "min_annual": 273.6,
+      "max_annual": 1350.5,
+      "mean_monsoon": 603.0,
+      "std_monsoon": 156.67
+    },
+    "WEST MADHYA PRADESH": {
+      "mean_annual": 941.49,
+      "std_annual": 184.84,
+      "median_annual": 911.8,
+      "min_annual": 509.5,
+      "max_annual": 1433.5,
+      "mean_monsoon": 864.04,
+      "std_monsoon": 172.07
+    },
+    "EAST MADHYA PRADESH": {
+      "mean_annual": 1205.0,
+      "std_annual": 219.5,
+      "median_annual": 1197.1,
+      "min_annual": 653.7,
+      "max_annual": 1747.3,
+      "mean_monsoon": 1076.01,
+      "std_monsoon": 195.62
+    },
+    "GUJARAT REGION": {
+      "mean_annual": 918.2,
+      "std_annual": 278.41,
+      "median_annual": 904.4,
+      "min_annual": 392.7,
+      "max_annual": 1620.1,
+      "mean_monsoon": 878.24,
+      "std_monsoon": 273.44
+    },
+    "SAURASHTRA & KUTCH": {
+      "mean_annual": 495.14,
+      "std_annual": 201.94,
+      "median_annual": 488.5,
+      "min_annual": 92.5,
+      "max_annual": 1119.9,
+      "mean_monsoon": 463.53,
+      "std_monsoon": 195.84
+    },
+    "KONKAN & GOA": {
+      "mean_annual": 2977.68,
+      "std_annual": 485.1,
+      "median_annual": 2962.9,
+      "min_annual": 1682.9,
+      "max_annual": 4000.3,
+      "mean_monsoon": 2794.14,
+      "std_monsoon": 456.29
+    },
+    "MADHYA MAHARASHTRA": {
+      "mean_annual": 880.22,
+      "std_annual": 159.09,
+      "median_annual": 893.7,
+      "min_annual": 438.2,
+      "max_annual": 1395.6,
+      "mean_monsoon": 738.03,
+      "std_monsoon": 142.8
+    },
+    "MARATHWADA": {
+      "mean_annual": 790.68,
+      "std_annual": 189.22,
+      "median_annual": 767.8,
+      "min_annual": 347.1,
+      "max_annual": 1198.1,
+      "mean_monsoon": 662.57,
+      "std_monsoon": 169.47
+    },
+    "VIDARBHA": {
+      "mean_annual": 1095.46,
+      "std_annual": 203.51,
+      "median_annual": 1093.4,
+      "min_annual": 578.3,
+      "max_annual": 1606.3,
+      "mean_monsoon": 964.41,
+      "std_monsoon": 183.06
+    },
+    "CHHATTISGARH": {
+      "mean_annual": 1371.73,
+      "std_annual": 210.67,
+      "median_annual": 1370.3,
+      "min_annual": 904.6,
+      "max_annual": 1973.9,
+      "mean_monsoon": 1204.5,
+      "std_monsoon": 177.75
+    },
+    "COASTAL ANDHRA PRADESH": {
+      "mean_annual": 1052.9,
+      "std_annual": 190.4,
+      "median_annual": 1026.4,
+      "min_annual": 703.2,
+      "max_annual": 1712.5,
+      "mean_monsoon": 655.15,
+      "std_monsoon": 126.06
+    },
+    "TELANGANA": {
+      "mean_annual": 953.37,
+      "std_annual": 205.92,
+      "median_annual": 942.1,
+      "min_annual": 436.8,
+      "max_annual": 1544.8,
+      "mean_monsoon": 780.19,
+      "std_monsoon": 183.11
+    },
+    "RAYALSEEMA": {
+      "mean_annual": 766.21,
+      "std_annual": 150.49,
+      "median_annual": 743.6,
+      "min_annual": 433.4,
+      "max_annual": 1277.7,
+      "mean_monsoon": 400.06,
+      "std_monsoon": 101.82
+    },
+    "TAMIL NADU": {
+      "mean_annual": 943.73,
+      "std_annual": 166.01,
+      "median_annual": 944.5,
+      "min_annual": 318.0,
+      "max_annual": 1365.4,
+      "mean_monsoon": 330.86,
+      "std_monsoon": 69.84
+    },
+    "COASTAL KARNATAKA": {
+      "mean_annual": 3405.9,
+      "std_annual": 481.27,
+      "median_annual": 3359.1,
+      "min_annual": 2510.9,
+      "max_annual": 5553.9,
+      "mean_monsoon": 2981.63,
+      "std_monsoon": 455.57
+    },
+    "NORTH INTERIOR KARNATAKA": {
+      "mean_annual": 717.79,
+      "std_annual": 134.04,
+      "median_annual": 719.0,
+      "min_annual": 470.4,
+      "max_annual": 1095.7,
+      "mean_monsoon": 501.92,
+      "std_monsoon": 108.63
+    },
+    "SOUTH INTERIOR KARNATAKA": {
+      "mean_annual": 1040.38,
+      "std_annual": 150.79,
+      "median_annual": 1030.2,
+      "min_annual": 733.4,
+      "max_annual": 1409.5,
+      "mean_monsoon": 684.33,
+      "std_monsoon": 128.1
+    },
+    "KERALA": {
+      "mean_annual": 2925.5,
+      "std_annual": 422.11,
+      "median_annual": 2937.5,
+      "min_annual": 2068.8,
+      "max_annual": 4257.9,
+      "mean_monsoon": 2022.85,
+      "std_monsoon": 386.25
+    },
+    "LAKSHADWEEP": {
+      "mean_annual": 1596.49,
+      "std_annual": 265.25,
+      "median_annual": 1556.45,
+      "min_annual": 992.6,
+      "max_annual": 2361.6,
+      "mean_monsoon": 980.2,
+      "std_monsoon": 208.7
+    }
+  }
+}

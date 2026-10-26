@@ -1,0 +1,128 @@
+{
+  "lpa_national_monsoon_mm": 1065.24,
+  "lpa_national_annual_mm": 1417.0,
+  "top_historical_drought_years": [
+    {
+      "YEAR": 1972,
+      "national_annual": 1146.5027777777777,
+      "national_monsoon": 821.5861111111112,
+      "monsoon_departure": -22.87
+    },
+    {
+      "YEAR": 2002,
+      "national_annual": 1148.8472222222222,
+      "national_monsoon": 838.1472222222222,
+      "monsoon_departure": -21.32
+    },
+    {
+      "YEAR": 2009,
+      "national_annual": 1185.2791666666665,
+      "national_monsoon": 869.4027777777778,
+      "monsoon_departure": -18.38
+    },
+    {
+      "YEAR": 1905,
+      "national_annual": 1186.1685714285716,
+      "national_monsoon": 879.16,
+      "monsoon_departure": -17.47
+    },
+    {
+      "YEAR": 1979,
+      "national_annual": 1217.5027777777777,
+      "national_monsoon": 890.9055555555556,
+      "monsoon_departure": -16.37
+    },
+    {
+      "YEAR": 1918,
+      "national_annual": 1263.5714285714287,
+      "national_monsoon": 895.6857142857143,
+      "monsoon_departure": -15.92
+    },
+    {
+      "YEAR": 1965,
+      "national_annual": 1188.7944444444445,
+      "national_monsoon": 897.5333333333333,
+      "monsoon_departure": -15.74
+    },
+    {
+      "YEAR": 2015,
+      "national_annual": 1280.5694444444443,
+      "national_monsoon": 903.0027777777777,
+      "monsoon_departure": -15.23
+    },
+    {
+      "YEAR": 1911,
+      "national_annual": 1259.9142857142858,
+      "national_monsoon": 903.9628571428572,
+      "monsoon_departure": -15.14
+    },
+    {
+      "YEAR": 1987,
+      "national_annual": 1288.5361111111113,
+      "national_monsoon": 915.2277777777779,
+      "monsoon_departure": -14.08
+    }
+  ],
+  "top_historical_excess_flood_years": [
+    {
+      "YEAR": 1988,
+      "national_annual": 1605.4722222222222,
+      "national_monsoon": 1266.1416666666667,
+      "monsoon_departure": 18.86
+    },
+    {
+      "YEAR": 1961,
+      "national_annual": 1717.0805555555555,
+      "national_monsoon": 1259.7194444444444,
+      "monsoon_departure": 18.26
+    },
+    {
+      "YEAR": 1959,
+      "national_annual": 1648.2305555555554,
+      "national_monsoon": 1249.9527777777778,
+      "monsoon_departure": 17.34
+    },
+    {
+      "YEAR": 1917,
+      "national_annual": 1676.5902777777778,
+      "national_monsoon": 1238.4375,
+      "monsoon_departure": 16.26
+    },
+    {
+      "YEAR": 1933,
+      "national_annual": 1666.736111111111,
+      "national_monsoon": 1231.8416666666667,
+      "monsoon_departure": 15.64
+    },
+    {
+      "YEAR": 2007,
+      "national_annual": 1514.0638888888889,
+      "national_monsoon": 1214.5611111111111,
+      "monsoon_departure": 14.02
+    },
+    {
+      "YEAR": 1916,
+      "national_annual": 1589.8097222222223,
+      "national_monsoon": 1207.9930555555557,
+      "monsoon_departure": 13.4
+    },
+    {
+      "YEAR": 1964,
+      "national_annual": 1494.1916666666666,
+      "national_monsoon": 1193.6666666666667,
+      "monsoon_departure": 12.06
+    },
+    {
+      "YEAR": 1970,
+      "national_annual": 1530.8583333333333,
+      "national_monsoon": 1193.5666666666666,
+      "monsoon_departure": 12.05
+    },
+    {
+      "YEAR": 1942,
+      "national_annual": 1525.7083333333333,
+      "national_monsoon": 1190.2333333333333,
+      "monsoon_departure": 11.73
+    }
+  ]
+}

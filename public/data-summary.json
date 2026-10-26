@@ -1,0 +1,767 @@
+{
+  "metadata": {
+    "dataset_name": "Rainfall in India (1901-2015) Meteorological Sub-Division Series",
+    "source": "Open Government Data (OGD) Platform India (data.gov.in) & India Meteorological Department (IMD)",
+    "ministry": "Ministry of Earth Sciences, Government of India",
+    "portal_url": "https://data.gov.in/catalog/rainfall-statistics-india",
+    "license": "Government Open Data License - India (GODL)",
+    "temporal_coverage": {
+      "start_year": 1901,
+      "end_year": 2015,
+      "total_years": 115
+    },
+    "spatial_coverage": {
+      "subdivisions_count": 36,
+      "subdivisions": [
+        "ANDAMAN & NICOBAR ISLANDS",
+        "ARUNACHAL PRADESH",
+        "ASSAM & MEGHALAYA",
+        "BIHAR",
+        "CHHATTISGARH",
+        "COASTAL ANDHRA PRADESH",
+        "COASTAL KARNATAKA",
+        "EAST MADHYA PRADESH",
+        "EAST RAJASTHAN",
+        "EAST UTTAR PRADESH",
+        "GANGETIC WEST BENGAL",
+        "GUJARAT REGION",
+        "HARYANA DELHI & CHANDIGARH",
+        "HIMACHAL PRADESH",
+        "JAMMU & KASHMIR",
+        "JHARKHAND",
+        "KERALA",
+        "KONKAN & GOA",
+        "LAKSHADWEEP",
+        "MADHYA MAHARASHTRA",
+        "MARATHWADA",
+        "NAGA MANI MIZO TRIPURA",
+        "NORTH INTERIOR KARNATAKA",
+        "ORISSA",
+        "PUNJAB",
+        "RAYALSEEMA",
+        "SAURASHTRA & KUTCH",
+        "SOUTH INTERIOR KARNATAKA",
+        "SUB HIMALAYAN WEST BENGAL & SIKKIM",
+        "TAMIL NADU",
+        "TELANGANA",
+        "UTTARAKHAND",
+        "VIDARBHA",
+        "WEST MADHYA PRADESH",
+        "WEST RAJASTHAN",
+        "WEST UTTAR PRADESH"
+      ],
+      "climate_zones": [
+        "Central & Plateau",
+        "Indo-Gangetic Plains",
+        "North-East & Himalayan",
+        "Peninsular & Coastal",
+        "Western Arid & Semi-Arid"
+      ]
+    },
+    "cleaning_summary": {
+      "original_rows": 4116,
+      "original_cols": 19,
+      "duplicates_removed": 0,
+      "monthly_values_imputed": 70,
+      "imputation_method": "Subdivision-specific historical monthly median",
+      "aggregates_reconciled": true
+    },
+    "subdivision_baselines": {
+      "ANDAMAN & NICOBAR ISLANDS": {
+        "mean_annual": 2926.07,
+        "std_annual": 404.52,
+        "median_annual": 2955.95,
+        "min_annual": 1849.3,
+        "max_annual": 3938.2,
+        "mean_monsoon": 1709.69,
+        "std_monsoon": 287.92
+      },
+      "ARUNACHAL PRADESH": {
+        "mean_annual": 3435.02,
+        "std_annual": 1060.51,
+        "median_annual": 3375.1,
+        "min_annual": 1668.5,
+        "max_annual": 6331.1,
+        "mean_monsoon": 2267.27,
+        "std_monsoon": 826.82
+      },
+      "ASSAM & MEGHALAYA": {
+        "mean_annual": 2580.7,
+        "std_annual": 310.19,
+        "median_annual": 2601.0,
+        "min_annual": 1743.5,
+        "max_annual": 3403.6,
+        "mean_monsoon": 1720.59,
+        "std_monsoon": 225.82
+      },
+      "NAGA MANI MIZO TRIPURA": {
+        "mean_annual": 2433.64,
+        "std_annual": 431.73,
+        "median_annual": 2422.9,
+        "min_annual": 1353.9,
+        "max_annual": 4316.3,
+        "mean_monsoon": 1609.95,
+        "std_monsoon": 318.28
+      },
+      "SUB HIMALAYAN WEST BENGAL & SIKKIM": {
+        "mean_annual": 2752.2,
+        "std_annual": 337.86,
+        "median_annual": 2723.0,
+        "min_annual": 1988.2,
+        "max_annual": 3655.2,
+        "mean_monsoon": 2126.39,
+        "std_monsoon": 297.28
+      },
+      "GANGETIC WEST BENGAL": {
+        "mean_annual": 1490.49,
+        "std_annual": 229.48,
+        "median_annual": 1482.3,
+        "min_annual": 1015.1,
+        "max_annual": 2099.8,
+        "mean_monsoon": 1130.67,
+        "std_monsoon": 186.06
+      },
+      "ORISSA": {
+        "mean_annual": 1458.17,
+        "std_annual": 187.1,
+        "median_annual": 1447.2,
+        "min_annual": 987.0,
+        "max_annual": 1945.2,
+        "mean_monsoon": 1158.82,
+        "std_monsoon": 152.02
+      },
+      "JHARKHAND": {
+        "mean_annual": 1309.3,
+        "std_annual": 198.25,
+        "median_annual": 1314.3,
+        "min_annual": 697.1,
+        "max_annual": 1898.7,
+        "mean_monsoon": 1084.51,
+        "std_monsoon": 168.09
+      },
+      "BIHAR": {
+        "mean_annual": 1197.64,
+        "std_annual": 194.64,
+        "median_annual": 1207.0,
+        "min_annual": 629.2,
+        "max_annual": 1660.5,
+        "mean_monsoon": 1015.79,
+        "std_monsoon": 176.5
+      },
+      "EAST UTTAR PRADESH": {
+        "mean_annual": 979.21,
+        "std_annual": 203.63,
+        "median_annual": 988.8,
+        "min_annual": 493.5,
+        "max_annual": 1545.4,
+        "mean_monsoon": 861.49,
+        "std_monsoon": 190.98
+      },
+      "WEST UTTAR PRADESH": {
+        "mean_annual": 827.11,
+        "std_annual": 189.63,
+        "median_annual": 809.0,
+        "min_annual": 371.9,
+        "max_annual": 1244.0,
+        "mean_monsoon": 721.67,
+        "std_monsoon": 178.0
+      },
+      "UTTARAKHAND": {
+        "mean_annual": 1465.69,
+        "std_annual": 264.02,
+        "median_annual": 1478.5,
+        "min_annual": 803.5,
+        "max_annual": 2103.0,
+        "mean_monsoon": 1131.37,
+        "std_monsoon": 229.19
+      },
+      "HARYANA DELHI & CHANDIGARH": {
+        "mean_annual": 530.49,
+        "std_annual": 142.19,
+        "median_annual": 512.1,
+        "min_annual": 234.6,
+        "max_annual": 986.8,
+        "mean_monsoon": 437.79,
+        "std_monsoon": 135.24
+      },
+      "PUNJAB": {
+        "mean_annual": 593.54,
+        "std_annual": 163.35,
+        "median_annual": 586.6,
+        "min_annual": 274.7,
+        "max_annual": 1222.6,
+        "mean_monsoon": 460.39,
+        "std_monsoon": 150.59
+      },
+      "HIMACHAL PRADESH": {
+        "mean_annual": 1260.34,
+        "std_annual": 247.32,
+        "median_annual": 1236.8,
+        "min_annual": 776.3,
+        "max_annual": 1919.2,
+        "mean_monsoon": 775.66,
+        "std_monsoon": 206.45
+      },
+      "JAMMU & KASHMIR": {
+        "mean_annual": 1137.79,
+        "std_annual": 234.76,
+        "median_annual": 1095.6,
+        "min_annual": 656.9,
+        "max_annual": 1732.4,
+        "mean_monsoon": 514.19,
+        "std_monsoon": 151.31
+      },
+      "WEST RAJASTHAN": {
+        "mean_annual": 292.66,
+        "std_annual": 108.85,
+        "median_annual": 279.8,
+        "min_annual": 62.2,
+        "max_annual": 768.8,
+        "mean_monsoon": 258.71,
+        "std_monsoon": 101.56
+      },
+      "EAST RAJASTHAN": {
+        "mean_annual": 655.21,
+        "std_annual": 166.44,
+        "median_annual": 655.3,
+        "min_annual": 273.6,
+        "max_annual": 1350.5,
+        "mean_monsoon": 603.0,
+        "std_monsoon": 156.67
+      },
+      "WEST MADHYA PRADESH": {
+        "mean_annual": 941.49,
+        "std_annual": 184.84,
+        "median_annual": 911.8,
+        "min_annual": 509.5,
+        "max_annual": 1433.5,
+        "mean_monsoon": 864.04,
+        "std_monsoon": 172.07
+      },
+      "EAST MADHYA PRADESH": {
+        "mean_annual": 1205.0,
+        "std_annual": 219.5,
+        "median_annual": 1197.1,
+        "min_annual": 653.7,
+        "max_annual": 1747.3,
+        "mean_monsoon": 1076.01,
+        "std_monsoon": 195.62
+      },
+      "GUJARAT REGION": {
+        "mean_annual": 918.2,
+        "std_annual": 278.41,
+        "median_annual": 904.4,
+        "min_annual": 392.7,
+        "max_annual": 1620.1,
+        "mean_monsoon": 878.24,
+        "std_monsoon": 273.44
+      },
+      "SAURASHTRA & KUTCH": {
+        "mean_annual": 495.14,
+        "std_annual": 201.94,
+        "median_annual": 488.5,
+        "min_annual": 92.5,
+        "max_annual": 1119.9,
+        "mean_monsoon": 463.53,
+        "std_monsoon": 195.84
+      },
+      "KONKAN & GOA": {
+        "mean_annual": 2977.68,
+        "std_annual": 485.1,
+        "median_annual": 2962.9,
+        "min_annual": 1682.9,
+        "max_annual": 4000.3,
+        "mean_monsoon": 2794.14,
+        "std_monsoon": 456.29
+      },
+      "MADHYA MAHARASHTRA": {
+        "mean_annual": 880.22,
+        "std_annual": 159.09,
+        "median_annual": 893.7,
+        "min_annual": 438.2,
+        "max_annual": 1395.6,
+        "mean_monsoon": 738.03,
+        "std_monsoon": 142.8
+      },
+      "MARATHWADA": {
+        "mean_annual": 790.68,
+        "std_annual": 189.22,
+        "median_annual": 767.8,
+        "min_annual": 347.1,
+        "max_annual": 1198.1,
+        "mean_monsoon": 662.57,
+        "std_monsoon": 169.47
+      },
+      "VIDARBHA": {
+        "mean_annual": 1095.46,
+        "std_annual": 203.51,
+        "median_annual": 1093.4,
+        "min_annual": 578.3,
+        "max_annual": 1606.3,
+        "mean_monsoon": 964.41,
+        "std_monsoon": 183.06
+      },
+      "CHHATTISGARH": {
+        "mean_annual": 1371.73,
+        "std_annual": 210.67,
+        "median_annual": 1370.3,
+        "min_annual": 904.6,
+        "max_annual": 1973.9,
+        "mean_monsoon": 1204.5,
+        "std_monsoon": 177.75
+      },
+      "COASTAL ANDHRA PRADESH": {
+        "mean_annual": 1052.9,
+        "std_annual": 190.4,
+        "median_annual": 1026.4,
+        "min_annual": 703.2,
+        "max_annual": 1712.5,
+        "mean_monsoon": 655.15,
+        "std_monsoon": 126.06
+      },
+      "TELANGANA": {
+        "mean_annual": 953.37,
+        "std_annual": 205.92,
+        "median_annual": 942.1,
+        "min_annual": 436.8,
+        "max_annual": 1544.8,
+        "mean_monsoon": 780.19,
+        "std_monsoon": 183.11
+      },
+      "RAYALSEEMA": {
+        "mean_annual": 766.21,
+        "std_annual": 150.49,
+        "median_annual": 743.6,
+        "min_annual": 433.4,
+        "max_annual": 1277.7,
+        "mean_monsoon": 400.06,
+        "std_monsoon": 101.82
+      },
+      "TAMIL NADU": {
+        "mean_annual": 943.73,
+        "std_annual": 166.01,
+        "median_annual": 944.5,
+        "min_annual": 318.0,
+        "max_annual": 1365.4,
+        "mean_monsoon": 330.86,
+        "std_monsoon": 69.84
+      },
+      "COASTAL KARNATAKA": {
+        "mean_annual": 3405.9,
+        "std_annual": 481.27,
+        "median_annual": 3359.1,
+        "min_annual": 2510.9,
+        "max_annual": 5553.9,
+        "mean_monsoon": 2981.63,
+        "std_monsoon": 455.57
+      },
+      "NORTH INTERIOR KARNATAKA": {
+        "mean_annual": 717.79,
+        "std_annual": 134.04,
+        "median_annual": 719.0,
+        "min_annual": 470.4,
+        "max_annual": 1095.7,
+        "mean_monsoon": 501.92,
+        "std_monsoon": 108.63
+      },
+      "SOUTH INTERIOR KARNATAKA": {
+        "mean_annual": 1040.38,
+        "std_annual": 150.79,
+        "median_annual": 1030.2,
+        "min_annual": 733.4,
+        "max_annual": 1409.5,
+        "mean_monsoon": 684.33,
+        "std_monsoon": 128.1
+      },
+      "KERALA": {
+        "mean_annual": 2925.5,
+        "std_annual": 422.11,
+        "median_annual": 2937.5,
+        "min_annual": 2068.8,
+        "max_annual": 4257.9,
+        "mean_monsoon": 2022.85,
+        "std_monsoon": 386.25
+      },
+      "LAKSHADWEEP": {
+        "mean_annual": 1596.49,
+        "std_annual": 265.25,
+        "median_annual": 1556.45,
+        "min_annual": 992.6,
+        "max_annual": 2361.6,
+        "mean_monsoon": 980.2,
+        "std_monsoon": 208.7
+      }
+    }
+  },
+  "metrics": {
+    "regression_benchmarks": [
+      {
+        "model_name": "Historical Baseline (Mean)",
+        "target": "Monsoon (Jun-Sep mm)",
+        "test_r2": -0.006,
+        "test_rmse_mm": 674.79,
+        "test_mae_mm": 510.84,
+        "test_mape_pct": 78.8,
+        "cv_r2_mean": -0.0011,
+        "cv_r2_std": 0.0013,
+        "cv_mae_mean_mm": 530.82,
+        "train_r2": 0.0,
+        "train_rmse_mm": 714.57,
+        "is_best": false
+      },
+      {
+        "model_name": "Linear Regression (OLS)",
+        "target": "Monsoon (Jun-Sep mm)",
+        "test_r2": 0.9473,
+        "test_rmse_mm": 154.45,
+        "test_mae_mm": 113.04,
+        "test_mape_pct": 13.52,
+        "cv_r2_mean": 0.9503,
+        "cv_r2_std": 0.0052,
+        "cv_mae_mean_mm": 110.06,
+        "train_r2": 0.9518,
+        "train_rmse_mm": 156.8,
+        "is_best": true
+      },
+      {
+        "model_name": "Ridge Regression (L2)",
+        "target": "Monsoon (Jun-Sep mm)",
+        "test_r2": 0.9473,
+        "test_rmse_mm": 154.45,
+        "test_mae_mm": 113.04,
+        "test_mape_pct": 13.52,
+        "cv_r2_mean": 0.9503,
+        "cv_r2_std": 0.0052,
+        "cv_mae_mean_mm": 110.08,
+        "train_r2": 0.9518,
+        "train_rmse_mm": 156.8,
+        "is_best": false
+      },
+      {
+        "model_name": "Random Forest Regressor",
+        "target": "Monsoon (Jun-Sep mm)",
+        "test_r2": 0.9392,
+        "test_rmse_mm": 165.84,
+        "test_mae_mm": 119.99,
+        "test_mape_pct": 14.44,
+        "cv_r2_mean": 0.9387,
+        "cv_r2_std": 0.0057,
+        "cv_mae_mean_mm": 121.34,
+        "train_r2": 0.9866,
+        "train_rmse_mm": 82.77,
+        "is_best": false
+      },
+      {
+        "model_name": "Gradient Boosting Regressor",
+        "target": "Monsoon (Jun-Sep mm)",
+        "test_r2": 0.9413,
+        "test_rmse_mm": 163.06,
+        "test_mae_mm": 117.63,
+        "test_mape_pct": 14.41,
+        "cv_r2_mean": 0.9404,
+        "cv_r2_std": 0.0065,
+        "cv_mae_mean_mm": 118.49,
+        "train_r2": 0.9664,
+        "train_rmse_mm": 131.06,
+        "is_best": false
+      }
+    ],
+    "annual_benchmark": {
+      "model_name": "Random Forest (Annual)",
+      "target": "Total Annual (mm)",
+      "test_r2": 0.9461,
+      "test_rmse_mm": 198.07,
+      "test_mae_mm": 151.21,
+      "test_mape_pct": 13.89
+    },
+    "classification_benchmark": {
+      "model_name": "Random Forest Risk Classifier",
+      "target": "Monsoon Risk Category (Deficit, Normal, Excess)",
+      "accuracy": 0.5042,
+      "macro_f1": 0.5029,
+      "class_labels": [
+        "Deficit",
+        "Normal",
+        "Excess"
+      ],
+      "confusion_matrix": [
+        [
+          155,
+          114,
+          22
+        ],
+        [
+          74,
+          125,
+          48
+        ],
+        [
+          35,
+          64,
+          83
+        ]
+      ]
+    },
+    "best_monsoon_model": "Linear Regression (OLS)"
+  },
+  "seasonal": {
+    "monthly_breakdown": [
+      {
+        "month": "JAN",
+        "mean": 18.95,
+        "median": 6.0,
+        "std": 33.57,
+        "min": 0.0,
+        "max": 583.7,
+        "q25": 0.6,
+        "q75": 22.2
+      },
+      {
+        "month": "FEB",
+        "mean": 21.81,
+        "median": 6.7,
+        "std": 35.91,
+        "min": 0.0,
+        "max": 403.5,
+        "q25": 0.6,
+        "q75": 26.8
+      },
+      {
+        "month": "MAR",
+        "mean": 27.4,
+        "median": 7.85,
+        "std": 46.99,
+        "min": 0.0,
+        "max": 605.6,
+        "q25": 1.0,
+        "q75": 31.3
+      },
+      {
+        "month": "APR",
+        "mean": 43.13,
+        "median": 15.7,
+        "std": 67.8,
+        "min": 0.0,
+        "max": 595.1,
+        "q25": 3.0,
+        "q75": 50.1
+      },
+      {
+        "month": "MAY",
+        "mean": 85.83,
+        "median": 36.7,
+        "std": 123.25,
+        "min": 0.0,
+        "max": 1168.6,
+        "q25": 8.6,
+        "q75": 97.72
+      },
+      {
+        "month": "JUN",
+        "mean": 230.46,
+        "median": 138.9,
+        "std": 234.68,
+        "min": 0.4,
+        "max": 1609.9,
+        "q25": 70.47,
+        "q75": 306.15
+      },
+      {
+        "month": "JUL",
+        "mean": 347.2,
+        "median": 284.7,
+        "std": 269.36,
+        "min": 0.0,
+        "max": 2362.8,
+        "q25": 175.82,
+        "q75": 418.32
+      },
+      {
+        "month": "AUG",
+        "mean": 290.26,
+        "median": 259.4,
+        "std": 188.7,
+        "min": 0.0,
+        "max": 1664.6,
+        "q25": 156.15,
+        "q75": 377.73
+      },
+      {
+        "month": "SEP",
+        "mean": 197.5,
+        "median": 173.9,
+        "std": 135.46,
+        "min": 0.1,
+        "max": 1222.0,
+        "q25": 100.6,
+        "q75": 265.97
+      },
+      {
+        "month": "OCT",
+        "mean": 95.67,
+        "median": 65.75,
+        "std": 99.54,
+        "min": 0.0,
+        "max": 948.3,
+        "q25": 14.6,
+        "q75": 148.7
+      },
+      {
+        "month": "NOV",
+        "mean": 40.05,
+        "median": 9.7,
+        "std": 68.78,
+        "min": 0.0,
+        "max": 648.9,
+        "q25": 0.7,
+        "q75": 46.32
+      },
+      {
+        "month": "DEC",
+        "mean": 18.96,
+        "median": 3.1,
+        "std": 42.39,
+        "min": 0.0,
+        "max": 617.5,
+        "q25": 0.1,
+        "q75": 17.62
+      }
+    ],
+    "seasonal_share_pct": {
+      "Winter (Jan-Feb)": 2.88,
+      "Pre-Monsoon (Mar-May)": 11.03,
+      "Southwest Monsoon (Jun-Sep)": 75.18,
+      "Post-Monsoon (Oct-Dec)": 10.91
+    },
+    "overall_mean_annual": 1417.23,
+    "overall_mean_monsoon": 1065.42
+  },
+  "extremes": {
+    "lpa_national_monsoon_mm": 1065.24,
+    "lpa_national_annual_mm": 1417.0,
+    "top_historical_drought_years": [
+      {
+        "YEAR": 1972,
+        "national_annual": 1146.5027777777777,
+        "national_monsoon": 821.5861111111112,
+        "monsoon_departure": -22.87
+      },
+      {
+        "YEAR": 2002,
+        "national_annual": 1148.8472222222222,
+        "national_monsoon": 838.1472222222222,
+        "monsoon_departure": -21.32
+      },
+      {
+        "YEAR": 2009,
+        "national_annual": 1185.2791666666665,
+        "national_monsoon": 869.4027777777778,
+        "monsoon_departure": -18.38
+      },
+      {
+        "YEAR": 1905,
+        "national_annual": 1186.1685714285716,
+        "national_monsoon": 879.16,
+        "monsoon_departure": -17.47
+      },
+      {
+        "YEAR": 1979,
+        "national_annual": 1217.5027777777777,
+        "national_monsoon": 890.9055555555556,
+        "monsoon_departure": -16.37
+      },
+      {
+        "YEAR": 1918,
+        "national_annual": 1263.5714285714287,
+        "national_monsoon": 895.6857142857143,
+        "monsoon_departure": -15.92
+      },
+      {
+        "YEAR": 1965,
+        "national_annual": 1188.7944444444445,
+        "national_monsoon": 897.5333333333333,
+        "monsoon_departure": -15.74
+      },
+      {
+        "YEAR": 2015,
+        "national_annual": 1280.5694444444443,
+        "national_monsoon": 903.0027777777777,
+        "monsoon_departure": -15.23
+      },
+      {
+        "YEAR": 1911,
+        "national_annual": 1259.9142857142858,
+        "national_monsoon": 903.9628571428572,
+        "monsoon_departure": -15.14
+      },
+      {
+        "YEAR": 1987,
+        "national_annual": 1288.5361111111113,
+        "national_monsoon": 915.2277777777779,
+        "monsoon_departure": -14.08
+      }
+    ],
+    "top_historical_excess_flood_years": [
+      {
+        "YEAR": 1988,
+        "national_annual": 1605.4722222222222,
+        "national_monsoon": 1266.1416666666667,
+        "monsoon_departure": 18.86
+      },
+      {
+        "YEAR": 1961,
+        "national_annual": 1717.0805555555555,
+        "national_monsoon": 1259.7194444444444,
+        "monsoon_departure": 18.26
+      },
+      {
+        "YEAR": 1959,
+        "national_annual": 1648.2305555555554,
+        "national_monsoon": 1249.9527777777778,
+        "monsoon_departure": 17.34
+      },
+      {
+        "YEAR": 1917,
+        "national_annual": 1676.5902777777778,
+        "national_monsoon": 1238.4375,
+        "monsoon_departure": 16.26
+      },
+      {
+        "YEAR": 1933,
+        "national_annual": 1666.736111111111,
+        "national_monsoon": 1231.8416666666667,
+        "monsoon_departure": 15.64
+      },
+      {
+        "YEAR": 2007,
+        "national_annual": 1514.0638888888889,
+        "national_monsoon": 1214.5611111111111,
+        "monsoon_departure": 14.02
+      },
+      {
+        "YEAR": 1916,
+        "national_annual": 1589.8097222222223,
+        "national_monsoon": 1207.9930555555557,
+        "monsoon_departure": 13.4
+      },
+      {
+        "YEAR": 1964,
+        "national_annual": 1494.1916666666666,
+        "national_monsoon": 1193.6666666666667,
+        "monsoon_departure": 12.06
+      },
+      {
+        "YEAR": 1970,
+        "national_annual": 1530.8583333333333,
+        "national_monsoon": 1193.5666666666666,
+        "monsoon_departure": 12.05
+      },
+      {
+        "YEAR": 1942,
+        "national_annual": 1525.7083333333333,
+        "national_monsoon": 1190.2333333333333,
+        "monsoon_departure": 11.73
+      }
+    ]
+  }
+}

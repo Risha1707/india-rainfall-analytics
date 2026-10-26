@@ -1,0 +1,110 @@
+[
+  {
+    "decade": "1900s",
+    "mean_annual": 1307.13,
+    "mean_monsoon": 996.81,
+    "std_annual": 825.17,
+    "drought_pct": 35.35,
+    "excess_pct": 22.61,
+    "normal_pct": 42.04
+  },
+  {
+    "decade": "1910s",
+    "mean_annual": 1417.2,
+    "mean_monsoon": 1050.39,
+    "std_annual": 879.69,
+    "drought_pct": 31.44,
+    "excess_pct": 32.29,
+    "normal_pct": 36.26
+  },
+  {
+    "decade": "1920s",
+    "mean_annual": 1452.58,
+    "mean_monsoon": 1094.4,
+    "std_annual": 996.66,
+    "drought_pct": 33.33,
+    "excess_pct": 27.22,
+    "normal_pct": 39.44
+  },
+  {
+    "decade": "1930s",
+    "mean_annual": 1485.09,
+    "mean_monsoon": 1110.54,
+    "std_annual": 996.05,
+    "drought_pct": 27.22,
+    "excess_pct": 30.28,
+    "normal_pct": 42.5
+  },
+  {
+    "decade": "1940s",
+    "mean_annual": 1483.41,
+    "mean_monsoon": 1113.36,
+    "std_annual": 978.22,
+    "drought_pct": 22.47,
+    "excess_pct": 35.11,
+    "normal_pct": 42.42
+  },
+  {
+    "decade": "1950s",
+    "mean_annual": 1475.92,
+    "mean_monsoon": 1106.78,
+    "std_annual": 918.69,
+    "drought_pct": 22.97,
+    "excess_pct": 37.82,
+    "normal_pct": 39.22
+  },
+  {
+    "decade": "1960s",
+    "mean_annual": 1409.75,
+    "mean_monsoon": 1072.6,
+    "std_annual": 928.38,
+    "drought_pct": 30.28,
+    "excess_pct": 26.67,
+    "normal_pct": 43.06
+  },
+  {
+    "decade": "1970s",
+    "mean_annual": 1398.52,
+    "mean_monsoon": 1047.49,
+    "std_annual": 853.01,
+    "drought_pct": 35.0,
+    "excess_pct": 34.72,
+    "normal_pct": 30.28
+  },
+  {
+    "decade": "1980s",
+    "mean_annual": 1396.81,
+    "mean_monsoon": 1056.37,
+    "std_annual": 865.51,
+    "drought_pct": 37.78,
+    "excess_pct": 28.89,
+    "normal_pct": 33.33
+  },
+  {
+    "decade": "1990s",
+    "mean_annual": 1450.98,
+    "mean_monsoon": 1083.66,
+    "std_annual": 897.54,
+    "drought_pct": 26.67,
+    "excess_pct": 33.33,
+    "normal_pct": 40.0
+  },
+  {
+    "decade": "2000s",
+    "mean_annual": 1333.92,
+    "mean_monsoon": 1001.28,
+    "std_annual": 829.98,
+    "drought_pct": 45.28,
+    "excess_pct": 21.94,
+    "normal_pct": 32.78
+  },
+  {
+    "decade": "2010s",
+    "mean_annual": 1359.48,
+    "mean_monsoon": 1028.39,
+    "std_annual": 877.72,
+    "drought_pct": 39.81,
+    "excess_pct": 26.39,
+    "normal_pct": 33.8
+  }
+]

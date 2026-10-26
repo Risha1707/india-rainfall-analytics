@@ -1,0 +1,109 @@
+{
+  "top_features": [
+    {
+      "feature": "ROLLING_3YR_MONSOON",
+      "importance": 0.9548,
+      "percentage": 95.48
+    },
+    {
+      "feature": "LAG_1_MONSOON",
+      "importance": 0.0224,
+      "percentage": 2.24
+    },
+    {
+      "feature": "Mar-May",
+      "importance": 0.0069,
+      "percentage": 0.69
+    },
+    {
+      "feature": "PRE_MONSOON_RATIO",
+      "importance": 0.0061,
+      "percentage": 0.61
+    },
+    {
+      "feature": "Jan-Feb",
+      "importance": 0.0058,
+      "percentage": 0.58
+    },
+    {
+      "feature": "SUBDIVISION_LPA_MONSOON",
+      "importance": 0.0014,
+      "percentage": 0.14
+    },
+    {
+      "feature": "CLIMATE_ZONE_Peninsular & Coastal",
+      "importance": 0.0002,
+      "percentage": 0.02
+    },
+    {
+      "feature": "CLIMATE_ZONE_Western Arid & Semi-Arid",
+      "importance": 0.0002,
+      "percentage": 0.02
+    },
+    {
+      "feature": "SUBDIVISION_GUJARAT REGION",
+      "importance": 0.0002,
+      "percentage": 0.02
+    },
+    {
+      "feature": "SUBDIVISION_KERALA",
+      "importance": 0.0002,
+      "percentage": 0.02
+    },
+    {
+      "feature": "CLIMATE_ZONE_Central & Plateau",
+      "importance": 0.0001,
+      "percentage": 0.01
+    },
+    {
+      "feature": "CLIMATE_ZONE_Indo-Gangetic Plains",
+      "importance": 0.0001,
+      "percentage": 0.01
+    },
+    {
+      "feature": "CLIMATE_ZONE_North-East & Himalayan",
+      "importance": 0.0001,
+      "percentage": 0.01
+    },
+    {
+      "feature": "SUBDIVISION_ANDAMAN & NICOBAR ISLANDS",
+      "importance": 0.0001,
+      "percentage": 0.01
+    },
+    {
+      "feature": "SUBDIVISION_ARUNACHAL PRADESH",
+      "importance": 0.0001,
+      "percentage": 0.01
+    }
+  ],
+  "grouped_factors": [
+    {
+      "factor": "Recent 3-Year Rolling Mean",
+      "percentage": 95.48
+    },
+    {
+      "factor": "Previous Year Lag (Lag-1)",
+      "percentage": 2.24
+    },
+    {
+      "factor": "Pre-Monsoon Rainfall (Mar-May)",
+      "percentage": 0.69
+    },
+    {
+      "factor": "Pre-Monsoon / Winter Ratio",
+      "percentage": 0.61
+    },
+    {
+      "factor": "Winter Rainfall (Jan-Feb)",
+      "percentage": 0.58
+    },
+    {
+      "factor": "Regional & Climate Zone Encodings",
+      "percentage": 0.24
+    },
+    {
+      "factor": "Subdivision Baseline (LPA)",
+      "percentage": 0.14
+    }
+  ]
+}

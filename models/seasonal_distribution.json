@@ -1,0 +1,132 @@
+{
+  "monthly_breakdown": [
+    {
+      "month": "JAN",
+      "mean": 18.95,
+      "median": 6.0,
+      "std": 33.57,
+      "min": 0.0,
+      "max": 583.7,
+      "q25": 0.6,
+      "q75": 22.2
+    },
+    {
+      "month": "FEB",
+      "mean": 21.81,
+      "median": 6.7,
+      "std": 35.91,
+      "min": 0.0,
+      "max": 403.5,
+      "q25": 0.6,
+      "q75": 26.8
+    },
+    {
+      "month": "MAR",
+      "mean": 27.4,
+      "median": 7.85,
+      "std": 46.99,
+      "min": 0.0,
+      "max": 605.6,
+      "q25": 1.0,
+      "q75": 31.3
+    },
+    {
+      "month": "APR",
+      "mean": 43.13,
+      "median": 15.7,
+      "std": 67.8,
+      "min": 0.0,
+      "max": 595.1,
+      "q25": 3.0,
+      "q75": 50.1
+    },
+    {
+      "month": "MAY",
+      "mean": 85.83,
+      "median": 36.7,
+      "std": 123.25,
+      "min": 0.0,
+      "max": 1168.6,
+      "q25": 8.6,
+      "q75": 97.72
+    },
+    {
+      "month": "JUN",
+      "mean": 230.46,
+      "median": 138.9,
+      "std": 234.68,
+      "min": 0.4,
+      "max": 1609.9,
+      "q25": 70.47,
+      "q75": 306.15
+    },
+    {
+      "month": "JUL",
+      "mean": 347.2,
+      "median": 284.7,
+      "std": 269.36,
+      "min": 0.0,
+      "max": 2362.8,
+      "q25": 175.82,
+      "q75": 418.32
+    },
+    {
+      "month": "AUG",
+      "mean": 290.26,
+      "median": 259.4,
+      "std": 188.7,
+      "min": 0.0,
+      "max": 1664.6,
+      "q25": 156.15,
+      "q75": 377.73
+    },
+    {
+      "month": "SEP",
+      "mean": 197.5,
+      "median": 173.9,
+      "std": 135.46,
+      "min": 0.1,
+      "max": 1222.0,
+      "q25": 100.6,
+      "q75": 265.97
+    },
+    {
+      "month": "OCT",
+      "mean": 95.67,
+      "median": 65.75,
+      "std": 99.54,
+      "min": 0.0,
+      "max": 948.3,
+      "q25": 14.6,
+      "q75": 148.7
+    },
+    {
+      "month": "NOV",
+      "mean": 40.05,
+      "median": 9.7,
+      "std": 68.78,
+      "min": 0.0,
+      "max": 648.9,
+      "q25": 0.7,
+      "q75": 46.32
+    },
+    {
+      "month": "DEC",
+      "mean": 18.96,
+      "median": 3.1,
+      "std": 42.39,
+      "min": 0.0,
+      "max": 617.5,
+      "q25": 0.1,
+      "q75": 17.62
+    }
+  ],
+  "seasonal_share_pct": {
+    "Winter (Jan-Feb)": 2.88,
+    "Pre-Monsoon (Mar-May)": 11.03,
+    "Southwest Monsoon (Jun-Sep)": 75.18,
+    "Post-Monsoon (Oct-Dec)": 10.91
+  },
+  "overall_mean_annual": 1417.23,
+  "overall_mean_monsoon": 1065.42
+}

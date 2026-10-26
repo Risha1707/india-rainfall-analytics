@@ -1,0 +1,111 @@
+{
+  "regression_benchmarks": [
+    {
+      "model_name": "Historical Baseline (Mean)",
+      "target": "Monsoon (Jun-Sep mm)",
+      "test_r2": -0.006,
+      "test_rmse_mm": 674.79,
+      "test_mae_mm": 510.84,
+      "test_mape_pct": 78.8,
+      "cv_r2_mean": -0.0011,
+      "cv_r2_std": 0.0013,
+      "cv_mae_mean_mm": 530.82,
+      "train_r2": 0.0,
+      "train_rmse_mm": 714.57,
+      "is_best": false
+    },
+    {
+      "model_name": "Linear Regression (OLS)",
+      "target": "Monsoon (Jun-Sep mm)",
+      "test_r2": 0.9473,
+      "test_rmse_mm": 154.45,
+      "test_mae_mm": 113.04,
+      "test_mape_pct": 13.52,
+      "cv_r2_mean": 0.9503,
+      "cv_r2_std": 0.0052,
+      "cv_mae_mean_mm": 110.06,
+      "train_r2": 0.9518,
+      "train_rmse_mm": 156.8,
+      "is_best": true
+    },
+    {
+      "model_name": "Ridge Regression (L2)",
+      "target": "Monsoon (Jun-Sep mm)",
+      "test_r2": 0.9473,
+      "test_rmse_mm": 154.45,
+      "test_mae_mm": 113.04,
+      "test_mape_pct": 13.52,
+      "cv_r2_mean": 0.9503,
+      "cv_r2_std": 0.0052,
+      "cv_mae_mean_mm": 110.08,
+      "train_r2": 0.9518,
+      "train_rmse_mm": 156.8,
+      "is_best": false
+    },
+    {
+      "model_name": "Random Forest Regressor",
+      "target": "Monsoon (Jun-Sep mm)",
+      "test_r2": 0.9392,
+      "test_rmse_mm": 165.84,
+      "test_mae_mm": 119.99,
+      "test_mape_pct": 14.44,
+      "cv_r2_mean": 0.9387,
+      "cv_r2_std": 0.0057,
+      "cv_mae_mean_mm": 121.34,
+      "train_r2": 0.9866,
+      "train_rmse_mm": 82.77,
+      "is_best": false
+    },
+    {
+      "model_name": "Gradient Boosting Regressor",
+      "target": "Monsoon (Jun-Sep mm)",
+      "test_r2": 0.9413,
+      "test_rmse_mm": 163.06,
+      "test_mae_mm": 117.63,
+      "test_mape_pct": 14.41,
+      "cv_r2_mean": 0.9404,
+      "cv_r2_std": 0.0065,
+      "cv_mae_mean_mm": 118.49,
+      "train_r2": 0.9664,
+      "train_rmse_mm": 131.06,
+      "is_best": false
+    }
+  ],
+  "annual_benchmark": {
+    "model_name": "Random Forest (Annual)",
+    "target": "Total Annual (mm)",
+    "test_r2": 0.9461,
+    "test_rmse_mm": 198.07,
+    "test_mae_mm": 151.21,
+    "test_mape_pct": 13.89
+  },
+  "classification_benchmark": {
+    "model_name": "Random Forest Risk Classifier",
+    "target": "Monsoon Risk Category (Deficit, Normal, Excess)",
+    "accuracy": 0.5042,
+    "macro_f1": 0.5029,
+    "class_labels": [
+      "Deficit",
+      "Normal",
+      "Excess"
+    ],
+    "confusion_matrix": [
+      [
+        155,
+        114,
+        22
+      ],
+      [
+        74,
+        125,
+        48
+      ],
+      [
+        35,
+        64,
+        83
+      ]
+    ]
+  },
+  "best_monsoon_model": "Linear Regression (OLS)"
+}
