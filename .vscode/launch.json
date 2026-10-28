@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ Run Varsha-AI Analytics (Standalone)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_in_vscode_or_spyder.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "⚡ Run Preprocessing & Cleaning",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/01_preprocess_and_clean.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "📊 Run Exploratory Data Analysis (EDA)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/02_exploratory_data_analysis.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "🤖 Train & Benchmark ML Models",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/03_train_and_evaluate_models.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "🌐 Start Local Python API Server (Port 8000)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/server.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
