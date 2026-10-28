@@ -7,6 +7,9 @@
 [![React 18 & Vite](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-cyan.svg)](https://vitejs.dev)
 [![Deployed on Vercel](https://img.shields.io/badge/Deploy-Vercel-black.svg)](https://vercel.com)
 
+> ### 🌐 **Live Interactive Dashboard:** [**https://express-flurry-3hjqwbx.tmp.now**](https://express-flurry-3hjqwbx.tmp.now)
+> 🚀 *Explore 115 years of meteorological data across all 36 Indian subdivisions, simulate what-if climate scenarios, and run real-time machine learning predictions.*
+
 A complete, production-grade **Predictive Analytics and Climate Intelligence Platform** built on **115 continuous years of official meteorological records (1901–2015)** covering all **36 meteorological subdivisions of India**. 
 
 The dataset is sourced directly from the official **[data.gov.in](https://data.gov.in/)** (Open Government Data Platform India) and the **India Meteorological Department (IMD)**, Ministry of Earth Sciences, Government of India.
